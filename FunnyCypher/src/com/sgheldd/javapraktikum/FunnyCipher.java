@@ -3,7 +3,7 @@ package com.sgheldd.javapraktikum;
 import java.util.Random;
 import java.util.regex.Pattern;
 
-/**Implements the FunnyCipher as specified in JavaPraktikum ‹bung 3 Aufgabe 3.
+/**Implements the FunnyCipher as specified in JavaPraktikum √úbung 3 Aufgabe 3.
  *
  * Created by Georg on 25.04.2015.
  * (c) all tights reserved
@@ -15,10 +15,10 @@ public class FunnyCipher {
     /**
      * A usable alphabet for random character generation.
      */
-    private final String ALPHABET = "abcdefghijklmnopqrstuvwxyz¸ˆ‰ABCDEFGHIJKLMNOPQRSTUVWXYZ‹÷ƒ!()ß$%&?:;., ";
+    private final String ALPHABET = "abcdefghijklmnopqrstuvwxyz√§√º√∂ABCDEFGHIJKLMNOPQRSTUVWXYZ√Ñ√ú√ñ!()$%&?:;., ";
 
     /**
-     * Creates and seeds a redymade random number generator.
+     * Creates and seeds a ready made random number generator.
      */
     private final Random random = new Random(System.currentTimeMillis());
 
